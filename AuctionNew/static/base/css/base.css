@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    margin-top: 100px;
+    flex: 1 0 auto;
+}
+
+.brand-logo img {
+    height: 54px;
+    width: auto;
+    margin-top: 5px;
+}
+
+.head {
+	background-color: #B22222;
+}
+
+.redfooter{
+	background-color: #B22222;
+	margin-top: 20px;
+}
+
+footer.pagefooter{
+    margin-top: 20px;
+    color:rgba(255,255,255,0.8);
+}
+
+footer.pagefooter .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer.pagefooter .footer-copyright{
+    font-size: 28px;
+}
+
+
+form small.error {
+    font-size: 100%;
+}
+
+form .errors small.error {
+    font-size: 75%;
+}
+
+form a.cb-form.right {
+   // line-height: 36px;
+}

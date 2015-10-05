@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    margin-top: 100px;
+    flex: 1 0 auto;
+}
+
+.brand-logo img {
+    height: 54px;
+    width: auto;
+    margin-top: 5px;
+}
+
+.button {
+ margin-top: 15px;
+}
+
+.head {
+	background-color: #3D4880;
+}
+
+footer.page-footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer.page-footer .footer-copyright{
+    font-size: 28px;
+}
+
+
+form small.error {
+    font-size: 100%;
+}
+
+form .errors small.error {
+    font-size: 75%;
+}
+
+form a.cb-form.right {
+   // line-height: 36px;
+}
